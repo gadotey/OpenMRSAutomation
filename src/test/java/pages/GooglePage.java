@@ -16,7 +16,7 @@ public class GooglePage {
     public GooglePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
     }
 
     @FindBy(name = "q")

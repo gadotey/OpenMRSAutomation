@@ -32,12 +32,13 @@ public class BaseUtil {
         } else if (browserName.equalsIgnoreCase("Firefox")) {
             driverManager = DriverManagerFactory.getManager(DriverType.FIREFOX);
             driver = driverManager.getDriver();
-        }else {
+        } else {
             //This exception will be displayed on the screen if the driver is not found.
             throw new RuntimeException("No Such Driver Found!");
         }
         return driver;
     }
+
     @AfterMethod
     public void tearDown() {
         driverManager.quitDriver();
