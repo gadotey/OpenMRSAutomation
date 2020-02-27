@@ -1,0 +1,8 @@
+manager\DriverManager.class
+manager\FirefoxDriverManager.class
+manager\DriverManagerFactory.class
+utils\RetryAnalyzer.class
+manager\DriverManagerFactory$1.class
+manager\ChromeDriverManager.class
+manager\DriverType.class
+base\BaseUtil.class
